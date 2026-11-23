@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02a49c9d69209c4e872613ac6dc8d91, type: 3}
+  m_Name: HomemDeTerno
+  m_EditorClassIdentifier: Assembly-CSharp::DadosViajante
+  nomePersonagem: Tobey
+  spriteNormal: {fileID: -8371167204526491931, guid: 2cad356206c24b04ca69e335edc10a88, type: 3}
+  spriteAnomalo: {fileID: 8507671095057755797, guid: 2cad356206c24b04ca69e335edc10a88, type: 3}
+  spriteCartaoPronto: {fileID: 21300000, guid: 5241d9f6c7bf3e84a8a007ad1b7047f0, type: 3}
+  origemCorreta: Inglaterra
+  idade: 38
+  origemMentirosa: "\xC1ustria"
+  falaApresentacao: "Sou Tobey, professor de Hist\xF3ria. Nas horas vagas pesquiso
+    sobre cachorros e gosto de fantasias de animais, mas hoje vim de terno. Vim de
+    {origem}."

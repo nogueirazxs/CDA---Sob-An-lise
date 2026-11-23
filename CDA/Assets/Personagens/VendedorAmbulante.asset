@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02a49c9d69209c4e872613ac6dc8d91, type: 3}
+  m_Name: VendedorAmbulante
+  m_EditorClassIdentifier: Assembly-CSharp::DadosViajante
+  nomePersonagem: Kleber Marcos
+  spriteNormal: {fileID: -1465003393479038554, guid: 766a0dc34b366eb478f746fb1410c8b8, type: 3}
+  spriteAnomalo: {fileID: 2587285898711268008, guid: 766a0dc34b366eb478f746fb1410c8b8, type: 3}
+  spriteCartaoPronto: {fileID: 21300000, guid: b8ef37b64bb5a0c41b5a0c50609c7a87, type: 3}
+  origemCorreta: Estados Unidos
+  idade: 19
+  origemMentirosa: Inglaterra
+  falaApresentacao: "T\xF4 s\xF3 tentando ganhar a vida. Tem pa\xE7oca, salgadinho
+    e \xE1gua. Esse barulho \xE9 das embalagens, qualquer movimento faz zoada. Vim
+    de {origem}."

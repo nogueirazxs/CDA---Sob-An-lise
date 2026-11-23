@@ -1,0 +1,832 @@
+fileFormatVersion: 2
+guid: 6dc92ba9b71c9284387b507f734f3552
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4797272708484694347
+    second: "Cart\xE3o Idosa Fofoqueira_0"
+  - first:
+      213: -2224609401404149560
+    second: "Cart\xE3o Idosa Fofoqueira_1"
+  - first:
+      213: 580834416028187246
+    second: "Cart\xE3o Idosa Fofoqueira_2"
+  - first:
+      213: 4831245478213912565
+    second: "Cart\xE3o Idosa Fofoqueira_3"
+  - first:
+      213: 7961434237334568160
+    second: "Cart\xE3o Idosa Fofoqueira_4"
+  - first:
+      213: 4630165215555215733
+    second: "Cart\xE3o Idosa Fofoqueira_5"
+  - first:
+      213: 657177907058024606
+    second: "Cart\xE3o Idosa Fofoqueira_6"
+  - first:
+      213: -4210814644011782462
+    second: "Cart\xE3o Idosa Fofoqueira_7"
+  - first:
+      213: -352935132019116887
+    second: "Cart\xE3o Idosa Fofoqueira_8"
+  - first:
+      213: 6087759186549555926
+    second: "Cart\xE3o Idosa Fofoqueira_9"
+  - first:
+      213: -7541778132610562108
+    second: "Cart\xE3o Idosa Fofoqueira_10"
+  - first:
+      213: 7580687595272776423
+    second: "Cart\xE3o Idosa Fofoqueira_11"
+  - first:
+      213: -2771159616844476541
+    second: "Cart\xE3o Idosa Fofoqueira_12"
+  - first:
+      213: 7698560118477734696
+    second: "Cart\xE3o Idosa Fofoqueira_13"
+  - first:
+      213: 973498237010505547
+    second: "Cart\xE3o Idosa Fofoqueira_14"
+  - first:
+      213: 3001257815262849438
+    second: "Cart\xE3o Idosa Fofoqueira_15"
+  - first:
+      213: 4551570109467043635
+    second: "Cart\xE3o Idosa Fofoqueira_16"
+  - first:
+      213: 8372564317476709963
+    second: "Cart\xE3o Idosa Fofoqueira_17"
+  - first:
+      213: 945177940488111910
+    second: "Cart\xE3o Idosa Fofoqueira_18"
+  - first:
+      213: 6525979437768494934
+    second: "Cart\xE3o Idosa Fofoqueira_19"
+  - first:
+      213: 1397485001698258490
+    second: "Cart\xE3o Idosa Fofoqueira_20"
+  - first:
+      213: 5961482305475365082
+    second: "Cart\xE3o Idosa Fofoqueira_21"
+  - first:
+      213: 5106533241191637237
+    second: "Cart\xE3o Idosa Fofoqueira_22"
+  - first:
+      213: 2468295609896129793
+    second: "Cart\xE3o Idosa Fofoqueira_23"
+  - first:
+      213: -5222683286190514791
+    second: "Cart\xE3o Idosa Fofoqueira_24"
+  - first:
+      213: -8546643335301742641
+    second: "Cart\xE3o Idosa Fofoqueira_25"
+  - first:
+      213: -3776165784269838031
+    second: "Cart\xE3o Idosa Fofoqueira_26"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_0"
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 191
+        width: 1553
+        height: 928
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bef71083e9ac6db0800000000000000
+      internalID: -4797272708484694347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_1"
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1107
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0bf4139899021e0800000000000000
+      internalID: -2224609401404149560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_2"
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 1095
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6a7ea0f2d98f0800800000000000000
+      internalID: 580834416028187246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_3"
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1096
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f707a75a280c0340800000000000000
+      internalID: 4831245478213912565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_4"
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 1078
+        width: 27
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ecb5f2e142bc7e60800000000000000
+      internalID: 7961434237334568160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_5"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 991
+        width: 68
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571e98c5bb6a14040800000000000000
+      internalID: 4630165215555215733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_6"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 797
+        width: 83
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e90ad6813d3ce1900800000000000000
+      internalID: 657177907058024606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_7"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 701
+        width: 13
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce2aa0246e2095c0800000000000000
+      internalID: -4210814644011782462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_8"
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 704
+        width: 33
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a4be3b0e5f1a1bf0800000000000000
+      internalID: -352935132019116887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_9"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 488
+        width: 46
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d24860d9b01c7450800000000000000
+      internalID: 6087759186549555926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_10"
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 513
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c740f61fb8365790800000000000000
+      internalID: -7541778132610562108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_11"
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 561
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7eaa1752433043960800000000000000
+      internalID: 7580687595272776423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_12"
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 557
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38fc31eb20dda89d0800000000000000
+      internalID: -2771159616844476541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_13"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 432
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 823cad793a7c6da60800000000000000
+      internalID: 7698560118477734696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_14"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 270
+        width: 70
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fea7e1d7f828d00800000000000000
+      internalID: 973498237010505547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_15"
+      rect:
+        serializedVersion: 2
+        x: 823
+        y: 252
+        width: 40
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e996b16e41c96a920800000000000000
+      internalID: 3001257815262849438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_16"
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 245
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337a11936ec6a2f30800000000000000
+      internalID: 4551570109467043635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_17"
+      rect:
+        serializedVersion: 2
+        x: 1323
+        y: 236
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b466f4213e2513470800000000000000
+      internalID: 8372564317476709963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_18"
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 238
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62744504452fd1d00800000000000000
+      internalID: 945177940488111910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_19"
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 230
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65fc1b7f8bfe09a50800000000000000
+      internalID: 6525979437768494934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_20"
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 237
+        width: 18
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3e2921743dd46310800000000000000
+      internalID: 1397485001698258490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_21"
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 235
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad8c2a052907bb250800000000000000
+      internalID: 5961482305475365082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_22"
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 236
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0a3f26dec0ed640800000000000000
+      internalID: 5106533241191637237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_23"
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 242
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 105d38497c5214220800000000000000
+      internalID: 2468295609896129793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_24"
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 238
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d9e30e83d4587b0800000000000000
+      internalID: -5222683286190514791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_25"
+      rect:
+        serializedVersion: 2
+        x: 1269
+        y: 213
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcf31692b29346980800000000000000
+      internalID: -8546643335301742641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Idosa Fofoqueira_26"
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 220
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139ac97e93d589bc0800000000000000
+      internalID: -3776165784269838031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Cart\xE3o Idosa Fofoqueira_0": -4797272708484694347
+      "Cart\xE3o Idosa Fofoqueira_1": -2224609401404149560
+      "Cart\xE3o Idosa Fofoqueira_10": -7541778132610562108
+      "Cart\xE3o Idosa Fofoqueira_11": 7580687595272776423
+      "Cart\xE3o Idosa Fofoqueira_12": -2771159616844476541
+      "Cart\xE3o Idosa Fofoqueira_13": 7698560118477734696
+      "Cart\xE3o Idosa Fofoqueira_14": 973498237010505547
+      "Cart\xE3o Idosa Fofoqueira_15": 3001257815262849438
+      "Cart\xE3o Idosa Fofoqueira_16": 4551570109467043635
+      "Cart\xE3o Idosa Fofoqueira_17": 8372564317476709963
+      "Cart\xE3o Idosa Fofoqueira_18": 945177940488111910
+      "Cart\xE3o Idosa Fofoqueira_19": 6525979437768494934
+      "Cart\xE3o Idosa Fofoqueira_2": 580834416028187246
+      "Cart\xE3o Idosa Fofoqueira_20": 1397485001698258490
+      "Cart\xE3o Idosa Fofoqueira_21": 5961482305475365082
+      "Cart\xE3o Idosa Fofoqueira_22": 5106533241191637237
+      "Cart\xE3o Idosa Fofoqueira_23": 2468295609896129793
+      "Cart\xE3o Idosa Fofoqueira_24": -5222683286190514791
+      "Cart\xE3o Idosa Fofoqueira_25": -8546643335301742641
+      "Cart\xE3o Idosa Fofoqueira_26": -3776165784269838031
+      "Cart\xE3o Idosa Fofoqueira_3": 4831245478213912565
+      "Cart\xE3o Idosa Fofoqueira_4": 7961434237334568160
+      "Cart\xE3o Idosa Fofoqueira_5": 4630165215555215733
+      "Cart\xE3o Idosa Fofoqueira_6": 657177907058024606
+      "Cart\xE3o Idosa Fofoqueira_7": -4210814644011782462
+      "Cart\xE3o Idosa Fofoqueira_8": -352935132019116887
+      "Cart\xE3o Idosa Fofoqueira_9": 6087759186549555926
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

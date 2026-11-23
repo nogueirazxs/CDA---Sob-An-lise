@@ -1,0 +1,1482 @@
+fileFormatVersion: 2
+guid: cea0beaf5cd81944a9b9b1163e85bb1f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2802868970038726030
+    second: "Cart\xE3o Tio_0"
+  - first:
+      213: -1015671039488020488
+    second: "Cart\xE3o Tio_1"
+  - first:
+      213: -6805552501579926557
+    second: "Cart\xE3o Tio_2"
+  - first:
+      213: -8550120612838601119
+    second: "Cart\xE3o Tio_3"
+  - first:
+      213: 686707966256750850
+    second: "Cart\xE3o Tio_4"
+  - first:
+      213: -947330137085424662
+    second: "Cart\xE3o Tio_5"
+  - first:
+      213: -4691409571510231011
+    second: "Cart\xE3o Tio_6"
+  - first:
+      213: 6258857315621010702
+    second: "Cart\xE3o Tio_7"
+  - first:
+      213: -4170347824225442004
+    second: "Cart\xE3o Tio_8"
+  - first:
+      213: -9028226411167603904
+    second: "Cart\xE3o Tio_9"
+  - first:
+      213: 2669333186283736081
+    second: "Cart\xE3o Tio_10"
+  - first:
+      213: 29665157515839185
+    second: "Cart\xE3o Tio_11"
+  - first:
+      213: -2217050397612529519
+    second: "Cart\xE3o Tio_12"
+  - first:
+      213: -2893869375287894746
+    second: "Cart\xE3o Tio_13"
+  - first:
+      213: 5930496165576660951
+    second: "Cart\xE3o Tio_14"
+  - first:
+      213: -7742665289843889661
+    second: "Cart\xE3o Tio_15"
+  - first:
+      213: 5810786259646258418
+    second: "Cart\xE3o Tio_16"
+  - first:
+      213: 7973423314160115855
+    second: "Cart\xE3o Tio_17"
+  - first:
+      213: 33797780134050242
+    second: "Cart\xE3o Tio_18"
+  - first:
+      213: -5776884256973986780
+    second: "Cart\xE3o Tio_19"
+  - first:
+      213: 4414019013387422245
+    second: "Cart\xE3o Tio_20"
+  - first:
+      213: -2851585527244164511
+    second: "Cart\xE3o Tio_21"
+  - first:
+      213: 3072016289324502902
+    second: "Cart\xE3o Tio_22"
+  - first:
+      213: 1789801341845029276
+    second: "Cart\xE3o Tio_23"
+  - first:
+      213: 4039192075064234503
+    second: "Cart\xE3o Tio_24"
+  - first:
+      213: 1567578185894077333
+    second: "Cart\xE3o Tio_25"
+  - first:
+      213: -567762264267868557
+    second: "Cart\xE3o Tio_26"
+  - first:
+      213: 7601977796393424221
+    second: "Cart\xE3o Tio_27"
+  - first:
+      213: -5466361786765207152
+    second: "Cart\xE3o Tio_28"
+  - first:
+      213: 3547386864812304198
+    second: "Cart\xE3o Tio_29"
+  - first:
+      213: -8251246768537415796
+    second: "Cart\xE3o Tio_30"
+  - first:
+      213: 1515411989008725349
+    second: "Cart\xE3o Tio_31"
+  - first:
+      213: 4929737644903626741
+    second: "Cart\xE3o Tio_32"
+  - first:
+      213: 252213831552914436
+    second: "Cart\xE3o Tio_33"
+  - first:
+      213: -3706132439288142721
+    second: "Cart\xE3o Tio_34"
+  - first:
+      213: -6079877831808891920
+    second: "Cart\xE3o Tio_35"
+  - first:
+      213: 5696914288998330848
+    second: "Cart\xE3o Tio_36"
+  - first:
+      213: 8075586124950178088
+    second: "Cart\xE3o Tio_37"
+  - first:
+      213: 7049911281907581671
+    second: "Cart\xE3o Tio_38"
+  - first:
+      213: -6094904957109361278
+    second: "Cart\xE3o Tio_39"
+  - first:
+      213: 3187976367688384923
+    second: "Cart\xE3o Tio_40"
+  - first:
+      213: 4480754951274118715
+    second: "Cart\xE3o Tio_41"
+  - first:
+      213: -6251141773112212465
+    second: "Cart\xE3o Tio_42"
+  - first:
+      213: 5858984768858374001
+    second: "Cart\xE3o Tio_43"
+  - first:
+      213: 4329317182998879915
+    second: "Cart\xE3o Tio_44"
+  - first:
+      213: 5141569429589093777
+    second: "Cart\xE3o Tio_45"
+  - first:
+      213: -2852250589560297888
+    second: "Cart\xE3o Tio_46"
+  - first:
+      213: 1594655585036244390
+    second: "Cart\xE3o Tio_47"
+  - first:
+      213: 1206695729213308982
+    second: "Cart\xE3o Tio_48"
+  - first:
+      213: 2180665143605578150
+    second: "Cart\xE3o Tio_49"
+  - first:
+      213: -3449883976432378371
+    second: "Cart\xE3o Tio_50"
+  - first:
+      213: 3278513046429870179
+    second: "Cart\xE3o Tio_51"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_0"
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 1143
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27270e0a5853a19d0800000000000000
+      internalID: -2802868970038726030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_1"
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1114
+        width: 52
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff2aa2229c97e1f0800000000000000
+      internalID: -1015671039488020488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_2"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 191
+        width: 1681
+        height: 937
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3be03ae02dd81a0800000000000000
+      internalID: -6805552501579926557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_3"
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1120
+        width: 93
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16e82056a9ed75980800000000000000
+      internalID: -8550120612838601119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_4"
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 1104
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2012a29c14da78900800000000000000
+      internalID: 686707966256750850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_5"
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 1103
+        width: 17
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aeb400e62486ad2f0800000000000000
+      internalID: -947330137085424662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_6"
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1105
+        width: 32
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d10e342d9d3c4eeb0800000000000000
+      internalID: -4691409571510231011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_7"
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 1090
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0df175519debd650800000000000000
+      internalID: 6258857315621010702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_8"
+      rect:
+        serializedVersion: 2
+        x: 691
+        y: 1095
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c272833dfb2ff16c0800000000000000
+      internalID: -4170347824225442004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_9"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 1011
+        width: 36
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0432e82a9eb45b280800000000000000
+      internalID: -9028226411167603904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_10"
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 978
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11c8a93e3606b0520800000000000000
+      internalID: 2669333186283736081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_11"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 946
+        width: 6
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d600f7bd44696000800000000000000
+      internalID: 29665157515839185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_12"
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 946
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198aa29e8647b31e0800000000000000
+      internalID: -2217050397612529519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_13"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 899
+        width: 57
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d5593b229e6d7d0800000000000000
+      internalID: -2893869375287894746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_14"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 939
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d7530b67da5d4250800000000000000
+      internalID: 5930496165576660951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_15"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 948
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30aab18f0f68c8490800000000000000
+      internalID: -7742665289843889661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_16"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 829
+        width: 9
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fc9fe7f05f04a050800000000000000
+      internalID: 5810786259646258418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_17"
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 875
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f80e45c524a47ae60800000000000000
+      internalID: 7973423314160115855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_18"
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 837
+        width: 35
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c93617e6e2187000800000000000000
+      internalID: 33797780134050242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_19"
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 860
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424e482206264dfa0800000000000000
+      internalID: -5776884256973986780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_20"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 771
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52a07ccf7eeb14d30800000000000000
+      internalID: 4414019013387422245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_21"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 492
+        width: 46
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16277f142122d68d0800000000000000
+      internalID: -2851585527244164511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_22"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 726
+        width: 6
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67f8665f98ef1aa20800000000000000
+      internalID: 3072016289324502902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_23"
+      rect:
+        serializedVersion: 2
+        x: 1110
+        y: 262
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c91c03f66d6a6d810800000000000000
+      internalID: 1789801341845029276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_24"
+      rect:
+        serializedVersion: 2
+        x: 1112
+        y: 272
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 702d6cdaac71e0830800000000000000
+      internalID: 4039192075064234503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_25"
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 272
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932edffd0821c510800000000000000
+      internalID: 1567578185894077333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_26"
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 256
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37631719a37ee18f0800000000000000
+      internalID: -567762264267868557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_27"
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 272
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d55df606786af7960800000000000000
+      internalID: 7601977796393424221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_28"
+      rect:
+        serializedVersion: 2
+        x: 1185
+        y: 270
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 099171ebae49324b0800000000000000
+      internalID: -5466361786765207152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_29"
+      rect:
+        serializedVersion: 2
+        x: 1204
+        y: 248
+        width: 24
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64726060f89da3130800000000000000
+      internalID: 3547386864812304198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_30"
+      rect:
+        serializedVersion: 2
+        x: 1120
+        y: 265
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8fcc3fe7cead7d80800000000000000
+      internalID: -8251246768537415796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_31"
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 250
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 565bb3dcc23d70510800000000000000
+      internalID: 1515411989008725349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_32"
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 240
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f7f958e442f96440800000000000000
+      internalID: 4929737644903626741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_33"
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 241
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 404d62db42b008300800000000000000
+      internalID: 252213831552914436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_34"
+      rect:
+        serializedVersion: 2
+        x: 1076
+        y: 244
+        width: 10
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f74ada1be2c219cc0800000000000000
+      internalID: -3706132439288142721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_35"
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 236
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f34245135fef9ba0800000000000000
+      internalID: -6079877831808891920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_36"
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 238
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b79fbc518f0f40800000000000000
+      internalID: 5696914288998330848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_37"
+      rect:
+        serializedVersion: 2
+        x: 1166
+        y: 242
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8298aba5bce321070800000000000000
+      internalID: 8075586124950178088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_38"
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 228
+        width: 13
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e2ce1875f056d160800000000000000
+      internalID: 7049911281907581671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_39"
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 240
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285aab3db3c8a6ba0800000000000000
+      internalID: -6094904957109361278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_40"
+      rect:
+        serializedVersion: 2
+        x: 1281
+        y: 238
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b910864ad97fd3c20800000000000000
+      internalID: 3187976367688384923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_41"
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 229
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e344c53e6de2e30800000000000000
+      internalID: 4480754951274118715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_42"
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 236
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f048a056dab7f39a0800000000000000
+      internalID: -6251141773112212465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_43"
+      rect:
+        serializedVersion: 2
+        x: 1333
+        y: 240
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17f3a34ea9b4f4150800000000000000
+      internalID: 5858984768858374001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_44"
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 211
+        width: 37
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bae94ac4a03d41c30800000000000000
+      internalID: 4329317182998879915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_45"
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 234
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19d6aaea7268a5740800000000000000
+      internalID: 5141569429589093777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_46"
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 210
+        width: 40
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0662cde5335ca68d0800000000000000
+      internalID: -2852250589560297888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_47"
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 226
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a59d254eca512610800000000000000
+      internalID: 1594655585036244390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_48"
+      rect:
+        serializedVersion: 2
+        x: 1298
+        y: 230
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6308db35f5b0fb010800000000000000
+      internalID: 1206695729213308982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_49"
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 224
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a9cfaaf467434e10800000000000000
+      internalID: 2180665143605578150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_50"
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 217
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd9f6c3dcc8f10d0800000000000000
+      internalID: -3449883976432378371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Tio_51"
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 213
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 368afe3de3e9f7d20800000000000000
+      internalID: 3278513046429870179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Cart\xE3o Tio_0": -2802868970038726030
+      "Cart\xE3o Tio_1": -1015671039488020488
+      "Cart\xE3o Tio_10": 2669333186283736081
+      "Cart\xE3o Tio_11": 29665157515839185
+      "Cart\xE3o Tio_12": -2217050397612529519
+      "Cart\xE3o Tio_13": -2893869375287894746
+      "Cart\xE3o Tio_14": 5930496165576660951
+      "Cart\xE3o Tio_15": -7742665289843889661
+      "Cart\xE3o Tio_16": 5810786259646258418
+      "Cart\xE3o Tio_17": 7973423314160115855
+      "Cart\xE3o Tio_18": 33797780134050242
+      "Cart\xE3o Tio_19": -5776884256973986780
+      "Cart\xE3o Tio_2": -6805552501579926557
+      "Cart\xE3o Tio_20": 4414019013387422245
+      "Cart\xE3o Tio_21": -2851585527244164511
+      "Cart\xE3o Tio_22": 3072016289324502902
+      "Cart\xE3o Tio_23": 1789801341845029276
+      "Cart\xE3o Tio_24": 4039192075064234503
+      "Cart\xE3o Tio_25": 1567578185894077333
+      "Cart\xE3o Tio_26": -567762264267868557
+      "Cart\xE3o Tio_27": 7601977796393424221
+      "Cart\xE3o Tio_28": -5466361786765207152
+      "Cart\xE3o Tio_29": 3547386864812304198
+      "Cart\xE3o Tio_3": -8550120612838601119
+      "Cart\xE3o Tio_30": -8251246768537415796
+      "Cart\xE3o Tio_31": 1515411989008725349
+      "Cart\xE3o Tio_32": 4929737644903626741
+      "Cart\xE3o Tio_33": 252213831552914436
+      "Cart\xE3o Tio_34": -3706132439288142721
+      "Cart\xE3o Tio_35": -6079877831808891920
+      "Cart\xE3o Tio_36": 5696914288998330848
+      "Cart\xE3o Tio_37": 8075586124950178088
+      "Cart\xE3o Tio_38": 7049911281907581671
+      "Cart\xE3o Tio_39": -6094904957109361278
+      "Cart\xE3o Tio_4": 686707966256750850
+      "Cart\xE3o Tio_40": 3187976367688384923
+      "Cart\xE3o Tio_41": 4480754951274118715
+      "Cart\xE3o Tio_42": -6251141773112212465
+      "Cart\xE3o Tio_43": 5858984768858374001
+      "Cart\xE3o Tio_44": 4329317182998879915
+      "Cart\xE3o Tio_45": 5141569429589093777
+      "Cart\xE3o Tio_46": -2852250589560297888
+      "Cart\xE3o Tio_47": 1594655585036244390
+      "Cart\xE3o Tio_48": 1206695729213308982
+      "Cart\xE3o Tio_49": 2180665143605578150
+      "Cart\xE3o Tio_5": -947330137085424662
+      "Cart\xE3o Tio_50": -3449883976432378371
+      "Cart\xE3o Tio_51": 3278513046429870179
+      "Cart\xE3o Tio_6": -4691409571510231011
+      "Cart\xE3o Tio_7": 6258857315621010702
+      "Cart\xE3o Tio_8": -4170347824225442004
+      "Cart\xE3o Tio_9": -9028226411167603904
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

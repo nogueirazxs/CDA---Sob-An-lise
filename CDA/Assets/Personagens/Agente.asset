@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02a49c9d69209c4e872613ac6dc8d91, type: 3}
+  m_Name: Agente
+  m_EditorClassIdentifier: Assembly-CSharp::DadosViajante
+  nomePersonagem: "Ademar Jos\xE9"
+  spriteNormal: {fileID: -3138653811453763913, guid: 39f1497179699ba45a3fa0a57e86855b, type: 3}
+  spriteAnomalo: {fileID: 8756012152985492724, guid: 39f1497179699ba45a3fa0a57e86855b, type: 3}
+  spriteCartaoPronto: {fileID: 21300000, guid: 4f47d2e7be8a5b741b517b37428d4569, type: 3}
+  origemCorreta: Rep. de Ayrs
+  idade: 60
+  origemMentirosa: Estados Unidos
+  falaApresentacao: "Ademar, fiscaliza\xE7\xE3o da prefeitura. Tenho uma vistoria
+    marcada e j\xE1 estou atrasado, pode conferir o crach\xE1. Sou de {origem}."

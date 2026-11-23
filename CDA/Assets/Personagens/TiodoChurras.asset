@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02a49c9d69209c4e872613ac6dc8d91, type: 3}
+  m_Name: TiodoChurras
+  m_EditorClassIdentifier: Assembly-CSharp::DadosViajante
+  nomePersonagem: Durval Silva
+  spriteNormal: {fileID: 6205071255135414222, guid: 2452c1cf676059143925c0bca187c33b, type: 3}
+  spriteAnomalo: {fileID: 257193514795266984, guid: 187661d2a72afad4dbd7fcde37330763, type: 3}
+  spriteCartaoPronto: {fileID: 21300000, guid: cea0beaf5cd81944a9b9b1163e85bb1f, type: 3}
+  origemCorreta: "\xC1ustria"
+  idade: 67
+  origemMentirosa: Brasil
+  falaApresentacao: "Meu nome \xE9 Durval, mas pode chamar de tio do churrasco. Gosta
+    de uma picanha? L\xE1 ele! O tanquinho \xE9 s\xF3 do avental. Sou de {origem}."

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a02a49c9d69209c4e872613ac6dc8d91, type: 3}
+  m_Name: Fofoqueira
+  m_EditorClassIdentifier: Assembly-CSharp::DadosViajante
+  nomePersonagem: Celma Maria
+  spriteNormal: {fileID: -7038321058096971964, guid: d7b96767d3744e8408959476ee7319dc, type: 3}
+  spriteAnomalo: {fileID: 52465064474841168, guid: d7b96767d3744e8408959476ee7319dc, type: 3}
+  spriteCartaoPronto: {fileID: 21300000, guid: 6dc92ba9b71c9284387b507f734f3552, type: 3}
+  origemCorreta: Inglaterra
+  idade: 72
+  origemMentirosa: Portugal
+  falaApresentacao: "Pode me chamar de dona Celma. Meu cabelo mexeu? Deve ser o vento.
+    Quem era aquela pessoa que acabou de passar? Ali\xE1s, sou de {origem}."

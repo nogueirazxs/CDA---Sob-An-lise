@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ae0054223910a47ad190092aad90ab, type: 3}
+  m_Name: Dialogo_Inicio
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogo
+  falas:
+  - texto: Aperte ENTER ou CLIQUE 2 vezes na tela para escutar as mensagens.
+    audio: {fileID: 8300000, guid: ea6307531fc4f7b40b71d12c8286cea0, type: 3}
+  - texto: "[Chiado de r\xE1dio] \"Al\xF4, detetive Corduroy? Aqui \xE9 o Faven,
+      da central do CDA. Antes de abrir a cancela hoje, preciso que mantenha a cabe\xE7a
+      no lugar e lembre-se do porqu\xEA estamos nesta fronteira.\""
+    audio: {fileID: 8300000, guid: 0b5478bde8012e747a09686d8c41e7e6, type: 3}
+  - texto: "\"Desde 1975, pessoas desaparecem ao redor do mundo e voltam dias depois
+      com o mesmo rosto e a mesma voz. N\xF3s sabemos o que elas realmente s\xE3o:
+      criaturas vestindo a pele dos desaparecidos para assumir suas identidades.\""
+    audio: {fileID: 8300000, guid: d78ddda9c693168458fc051eedd873b3, type: 3}
+  - texto: "\"A Inglaterra e os Estados Unidos j\xE1 perderam o controle. A Rep\xFAblica
+      de Ayres \xE9 um dos \xFAltimos territ\xF3rios sem nenhum caso confirmado,
+      e a nossa opera\xE7\xE3o conjunta com o FBI \xE9 tudo o que separa esse pa\xEDs
+      do caos.\""
+    audio: {fileID: 8300000, guid: 5592aa36f6a40524a9c5c1aaacbb4f85, type: 3}
+  - texto: "\"N\xE3o confie apenas nos seus olhos, Pines. As altera\xE7\xF5es clim\xE1ticas
+      mudaram a pigmenta\xE7\xE3o da pele da popula\xE7\xE3o, e essas coisas est\xE3o
+      aprendendo a imitar o comportamento humano com perfei\xE7\xE3o.\""
+    audio: {fileID: 8300000, guid: de5b9e72865e56c42861d13f0c16d2fc, type: 3}
+  - texto: "\"Confirme cada rosto, revise o cart\xE3o de identidade e cruze tudo
+      com o livro de chegadas previstas sobre a sua mesa. Qualquer contradi\xE7\xE3o
+      no depoimento pode ser o \xFAnico sinal de que n\xE3o h\xE1 um humano atr\xE1s
+      desse vidro.\""
+    audio: {fileID: 8300000, guid: 492c614747a766c4db881d513f3b93fd, type: 3}
+  - texto: "\"Hoje \xE9 sexta-feira, 13 de junho. Se barrar um inocente, vai deix\xE1-lo
+      \xE0 pr\xF3pria sorte l\xE1 fora; mas se deixar uma \xFAnica anomalia passar,
+      Ayres estar\xE1 condenada. O primeiro viajante j\xE1 est\xE1 na fila. C\xE2mbio,
+      desligo.\""
+    audio: {fileID: 8300000, guid: c9ca03fb8ee4d8f4cb755ce774f5cd1c, type: 3}

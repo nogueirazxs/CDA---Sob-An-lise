@@ -1,0 +1,702 @@
+fileFormatVersion: 2
+guid: b8ef37b64bb5a0c41b5a0c50609c7a87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 584190555174937418
+    second: "Cart\xE3o Ambulante_0"
+  - first:
+      213: -2818390777717298895
+    second: "Cart\xE3o Ambulante_1"
+  - first:
+      213: 8368854408630934968
+    second: "Cart\xE3o Ambulante_2"
+  - first:
+      213: 4625111479146212536
+    second: "Cart\xE3o Ambulante_3"
+  - first:
+      213: 4939730328089162886
+    second: "Cart\xE3o Ambulante_4"
+  - first:
+      213: -1186024840126945349
+    second: "Cart\xE3o Ambulante_5"
+  - first:
+      213: -947533243081993236
+    second: "Cart\xE3o Ambulante_6"
+  - first:
+      213: 5600524953779493243
+    second: "Cart\xE3o Ambulante_7"
+  - first:
+      213: -3789274855142251078
+    second: "Cart\xE3o Ambulante_8"
+  - first:
+      213: 2959677756224773647
+    second: "Cart\xE3o Ambulante_9"
+  - first:
+      213: -2450634364242551869
+    second: "Cart\xE3o Ambulante_10"
+  - first:
+      213: -2727439885166213404
+    second: "Cart\xE3o Ambulante_11"
+  - first:
+      213: 1819371291716346693
+    second: "Cart\xE3o Ambulante_12"
+  - first:
+      213: 5452122665311498485
+    second: "Cart\xE3o Ambulante_13"
+  - first:
+      213: -6184021225994292154
+    second: "Cart\xE3o Ambulante_14"
+  - first:
+      213: 1225284344813440631
+    second: "Cart\xE3o Ambulante_15"
+  - first:
+      213: -6844518063040176936
+    second: "Cart\xE3o Ambulante_16"
+  - first:
+      213: 6550448648548870396
+    second: "Cart\xE3o Ambulante_17"
+  - first:
+      213: 2522090378107429848
+    second: "Cart\xE3o Ambulante_18"
+  - first:
+      213: 5921642936462268429
+    second: "Cart\xE3o Ambulante_19"
+  - first:
+      213: -8122258117889925907
+    second: "Cart\xE3o Ambulante_20"
+  - first:
+      213: 8999419762476871381
+    second: "Cart\xE3o Ambulante_21"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_0"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 212
+        width: 1503
+        height: 914
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a43275af6367b1800800000000000000
+      internalID: 584190555174937418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_1"
+      rect:
+        serializedVersion: 2
+        x: 578
+        y: 1103
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1396ce7258013e8d0800000000000000
+      internalID: -2818390777717298895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_2"
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1106
+        width: 35
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd986b9eb4242470800000000000000
+      internalID: 8368854408630934968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_3"
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 1104
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bc6719a262bf2040800000000000000
+      internalID: 4625111479146212536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_4"
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1092
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6847af3cf827d8440800000000000000
+      internalID: 4939730328089162886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_5"
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 1082
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7a17511b46a8fe0800000000000000
+      internalID: -1186024840126945349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_6"
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 1074
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce35931298fa9d2f0800000000000000
+      internalID: -947533243081993236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_7"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 881
+        width: 66
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b79dcb9c5cf09bd40800000000000000
+      internalID: 5600524953779493243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_8"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 907
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab52dee789ac96bc0800000000000000
+      internalID: -3789274855142251078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_9"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 819
+        width: 53
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0e176dfc33e21920800000000000000
+      internalID: 2959677756224773647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_10"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 732
+        width: 50
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cb15fc97099dfdd0800000000000000
+      internalID: -2450634364242551869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_11"
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 688
+        width: 18
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e68f6200ef262ad0800000000000000
+      internalID: -2727439885166213404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_12"
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 608
+        width: 11
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 543eb45ec84bf3910800000000000000
+      internalID: 1819371291716346693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_13"
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 620
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f07fb17da4d9ab40800000000000000
+      internalID: 5452122665311498485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_14"
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 592
+        width: 20
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64472259571fd2aa0800000000000000
+      internalID: -6184021225994292154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_15"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 465
+        width: 6
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77ec379ae95110110800000000000000
+      internalID: 1225284344813440631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_16"
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 238
+        width: 79
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dcdeb1e5136301a0800000000000000
+      internalID: -6844518063040176936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_17"
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 257
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf86130175ed7ea50800000000000000
+      internalID: 6550448648548870396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_18"
+      rect:
+        serializedVersion: 2
+        x: 1100
+        y: 244
+        width: 63
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3268616d3400320800000000000000
+      internalID: 2522090378107429848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_19"
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 246
+        width: 56
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d08d88260e6ed2250800000000000000
+      internalID: 5921642936462268429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_20"
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 256
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec532d7641f74f80800000000000000
+      internalID: -8122258117889925907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Cart\xE3o Ambulante_21"
+      rect:
+        serializedVersion: 2
+        x: 1312
+        y: 250
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5de601fc79c54ec70800000000000000
+      internalID: 8999419762476871381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Cart\xE3o Ambulante_0": 584190555174937418
+      "Cart\xE3o Ambulante_1": -2818390777717298895
+      "Cart\xE3o Ambulante_10": -2450634364242551869
+      "Cart\xE3o Ambulante_11": -2727439885166213404
+      "Cart\xE3o Ambulante_12": 1819371291716346693
+      "Cart\xE3o Ambulante_13": 5452122665311498485
+      "Cart\xE3o Ambulante_14": -6184021225994292154
+      "Cart\xE3o Ambulante_15": 1225284344813440631
+      "Cart\xE3o Ambulante_16": -6844518063040176936
+      "Cart\xE3o Ambulante_17": 6550448648548870396
+      "Cart\xE3o Ambulante_18": 2522090378107429848
+      "Cart\xE3o Ambulante_19": 5921642936462268429
+      "Cart\xE3o Ambulante_2": 8368854408630934968
+      "Cart\xE3o Ambulante_20": -8122258117889925907
+      "Cart\xE3o Ambulante_21": 8999419762476871381
+      "Cart\xE3o Ambulante_3": 4625111479146212536
+      "Cart\xE3o Ambulante_4": 4939730328089162886
+      "Cart\xE3o Ambulante_5": -1186024840126945349
+      "Cart\xE3o Ambulante_6": -947533243081993236
+      "Cart\xE3o Ambulante_7": 5600524953779493243
+      "Cart\xE3o Ambulante_8": -3789274855142251078
+      "Cart\xE3o Ambulante_9": 2959677756224773647
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
