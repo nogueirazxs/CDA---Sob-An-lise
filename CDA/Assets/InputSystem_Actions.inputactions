@@ -1013,6 +1013,33 @@
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
+                },
+                {
+                    "name": "AbrirEFechar",
+                    "type": "Button",
+                    "id": "a249cd9c-9d73-43e6-806d-eadfe3bc7fb3",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Toque",
+                    "type": "Button",
+                    "id": "9b287011-8386-432b-8b41-098b76a27290",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "PosicaoToque",
+                    "type": "Value",
+                    "id": "0f85dea5-7897-4cce-aefe-943e6212a394",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
                 }
             ],
             "bindings": [
@@ -1057,6 +1084,39 @@
                     "processors": "",
                     "groups": ";Touch",
                     "action": "Avancar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "657e8215-c435-4360-a8ba-016e329f3dac",
+                    "path": "<Keyboard>/escape",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "AbrirEFechar",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "af18eb46-3451-414c-aabe-05d8746faa6a",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Toque",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "128cc3b7-1b9d-4fff-b830-3d67d7105e09",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PosicaoToque",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
