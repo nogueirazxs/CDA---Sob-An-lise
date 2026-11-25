@@ -2,6 +2,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
+// Estrutura que vincula cada objeto da cabine à sua respectiva explicação na tela
 [System.Serializable]
 public class PassoTutorial
 {
@@ -15,27 +16,27 @@ public class TutorialGuiado : MonoBehaviour
     [Header("Lista de Itens")]
     public List<PassoTutorial> passos = new List<PassoTutorial>();
 
-    [Header("Tela")]
+    [Header("Elementos de Interface")]
     public GameObject painelTutorial;
     public TextMeshProUGUI textoExplicacao;
 
     [Header("Zoom da Câmera")]
-    private Camera cameraPrincipal;
     public float zoomAproximado = 2.5f;
     public float velocidadeZoom = 5f;
     public float deslocamentoLateral = 1.2f;
 
+    [Header("Conexão com o Jogo")]
+    public GerenciadorTriagem gerenciadorTriagem;
+
+    private Camera cameraPrincipal;
     private int passoAtual = 0;
     private bool tutorialAtivo = false;
     private bool jaIniciouUmaVez = false;
 
     private Vector3 posicaoOriginalCamera;
     private float zoomOriginalCamera;
-
     private Vector3 posicaoDesejada;
     private float zoomDesejado;
-
-    public GerenciadorTriagem gerenciadorTriagem;
 
     void Awake()
     {
@@ -54,9 +55,12 @@ public class TutorialGuiado : MonoBehaviour
         }
 
         if (painelTutorial != null)
+        {
             painelTutorial.SetActive(false);
+        }
     }
 
+    // Move e aproxima a câmera suavemente em direção ao item destacado no passo atual
     void Update()
     {
         if (!tutorialAtivo || cameraPrincipal == null) return;
@@ -74,23 +78,29 @@ public class TutorialGuiado : MonoBehaviour
         );
     }
 
+    // Inicia o tour guiado pela cabine apenas uma vez por partida
     public void IniciarTutorial()
     {
-        // Impede que o tutorial inicie duas vezes na mesma partida!
         if (jaIniciouUmaVez || passos.Count == 0) return;
 
-        if (cameraPrincipal == null) cameraPrincipal = Camera.main;
+        if (cameraPrincipal == null)
+        {
+            cameraPrincipal = Camera.main;
+        }
 
         jaIniciouUmaVez = true;
         passoAtual = 0;
         tutorialAtivo = true;
 
         if (painelTutorial != null)
+        {
             painelTutorial.SetActive(true);
+        }
 
         FocarNoPassoAtual();
     }
 
+    // Atualiza o texto na tela e define as coordenadas de enquadramento do alvo atual
     void FocarNoPassoAtual()
     {
         if (passos[passoAtual].objetoAlvo == null) return;
@@ -120,6 +130,7 @@ public class TutorialGuiado : MonoBehaviour
         }
     }
 
+    // Devolve a câmera para a posição padrão da cabine e libera a entrada do primeiro viajante
     public void EncerrarTutorial()
     {
         tutorialAtivo = false;
@@ -131,9 +142,13 @@ public class TutorialGuiado : MonoBehaviour
         }
 
         if (painelTutorial != null)
+        {
             painelTutorial.SetActive(false);
+        }
 
         if (gerenciadorTriagem != null)
+        {
             gerenciadorTriagem.IniciarDia();
+        }
     }
 }

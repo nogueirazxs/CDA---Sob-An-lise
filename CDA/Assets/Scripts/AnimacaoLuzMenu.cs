@@ -1,25 +1,28 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
-using TMPro;
 
 public class AnimacaoLuzMenu : MonoBehaviour
 {
+    [Header("Componentes")]
     public Light2D luz;
+    public TMP_Text texto;
+
+    [Header("Configuração da Oscilação")]
     public float intensidadeMinima;
     public float intensidadeMaxima;
     public float velocidade = 3f;
-    public TMP_Text texto;
 
     void Update()
     {
-        // Variável que recebe uma variação de valor de forma suavizada.
+        // Gera uma oscilação suave para simular falha elétrica
         float variacao = Mathf.PerlinNoise(Time.time * velocidade, 0f);
 
-        // A luz muda sua intensidade com uma intercalação definida no inspector.
         luz.intensity = Mathf.Lerp(intensidadeMinima, intensidadeMaxima, variacao);
-        
+
         if (texto != null)
-        // Texto recebe uma transparência de acordo com a variação.
-        texto.alpha = variacao; 
+        {
+            texto.alpha = variacao;
+        }
     }
 }

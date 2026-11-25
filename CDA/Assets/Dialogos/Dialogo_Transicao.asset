@@ -15,15 +15,15 @@ MonoBehaviour:
   falas:
   - texto: "Pines, aqui \xE9 o Faven. Bom trabalho hoje na triagem \u2014 a fronteira
       de Ayres continua segura, pelo menos por enquanto."
-    audio: {fileID: 0}
+    audio: {fileID: 8300000, guid: ef20a3e46bd1a3648869e99a975d574b, type: 3}
   - texto: "Mas n\xE3o baixe a guarda. Amanh\xE3 voc\xEA assume a etapa final da
       triagem e a rede el\xE9trica desse posto \xE9 antiga e inst\xE1vel."
-    audio: {fileID: 0}
+    audio: {fileID: 8300000, guid: 5055130a85fb4834b80e2e9e0c52f96d, type: 3}
   - texto: "Inclusive... parece que a energia j\xE1 come\xE7ou a falhar por a\xED.
       Se ficar no escuro, voc\xEA n\xE3o vai conseguir identificar os disfarces das
       criaturas."
-    audio: {fileID: 0}
+    audio: {fileID: 8300000, guid: 9f68167b295abf6419c5941dff4115ac, type: 3}
   - texto: "V\xE1 at\xE9 a caixa de fia\xE7\xE3o na lateral da sala e reconecte os
       cabos antes que a situa\xE7\xE3o saia do controle. Cuidado com o que espreita
       no escuro, detetive."
-    audio: {fileID: 0}
+    audio: {fileID: 8300000, guid: 266a13f26abba5940b995eaf98347186, type: 3}

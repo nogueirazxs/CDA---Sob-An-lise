@@ -8,7 +8,7 @@ using UnityEngine.UI;
 public class GerenciadorTriagem : MonoBehaviour
 {
     [Header("Configuração do Dia")]
-    public int diaAtual = 1; // Mude para 2 no segundo dia
+    public int diaAtual = 1;
     public List<DadosViajante> todosPersonagens = new List<DadosViajante>();
     public ControladorViajante viajanteNaJanela;
 
@@ -17,77 +17,100 @@ public class GerenciadorTriagem : MonoBehaviour
     public TextMeshProUGUI textoFalaViajante;
 
     [Header("Cartão de Identidade (Mesa e Zoom UI)")]
-    public GameObject cartaoNaMesa; // Sprite/Botão pequeno na mesa
-    public GameObject painelCartaoAmpliado; // Painel grande na tela
-    public Image imagemCartaoAmpliado; // Image central que mostra o sprite do cartão pronto
+    public GameObject cartaoNaMesa;
+    public GameObject painelCartaoAmpliado;
+    public Image imagemCartaoAmpliado;
 
     [Header("Botões de Decisão e Timer")]
-    public GameObject painelDecisao; // Guarda botões Aprovar/Negar e o Timer
+    public GameObject painelDecisao;
     public TextMeshProUGUI textoTimer;
     public float tempoLimiteInvestigacao = 45f;
 
-    // Controle interno
+    [Header("Eventos e Puzzles")]
+    public RadioChamada radioChamada;
+    public EventoEnergiaDia2 eventoEnergiaDia2;
+    public EventoLanterna eventoLanterna;
+
+    [Header("Transição Final do Dia 2 (Tremida + Fade)")]
+    public Image painelFadePreto;
+    public string nomeCenaFinal = "FimDeTurno";
+    public AudioSource audioSource;
+
+    [HideInInspector] public bool jogoPausadoPorPuzzle = false;
+
     private List<DadosViajante> filaDoDia = new List<DadosViajante>();
     private List<bool> listaAnomaliasDoDia = new List<bool>();
+    private HashSet<DadosViajante> personagensJaVistos = new HashSet<DadosViajante>();
+
     private int indiceViajante = 0;
+    private int atendidosNoDia2 = 0;
+    private int puzzlesDisparadosDia2 = 0;
     private bool viajanteAtualEhAnomalia = false;
     private int anomaliasQuePassaram = 0;
     private float tempoRestante;
 
-    // Trava flexível para seus PUZZLES no meio do jogo!
-    [HideInInspector] public bool jogoPausadoPorPuzzle = false;
-
-    public RadioChamada radioChamada;
-
-    public EventoEnergiaDia2 eventoEnergiaDia2;
+    private bool podeDecidir = false;
+    private Coroutine rotinaContagem = null;
 
     void Start()
+    {
+        EsconderTodaHUDTriagem();
+        viajanteNaJanela.Esconder();
+
+        if (painelFadePreto != null)
+        {
+            Color c = painelFadePreto.color;
+            c.a = 0f;
+            painelFadePreto.color = c;
+            painelFadePreto.gameObject.SetActive(false);
+        }
+    }
+
+    void EsconderTodaHUDTriagem()
     {
         caixaDialogoViajante.SetActive(false);
         cartaoNaMesa.SetActive(false);
         painelCartaoAmpliado.SetActive(false);
         painelDecisao.SetActive(false);
-        viajanteNaJanela.Esconder();
-
-        // Chame IniciarDia() aqui ou depois do seu tutorial acabar!
     }
 
+    // Reinicia os contadores e monta a fila de viajantes conforme o dia atual
     public void IniciarDia()
     {
-        anomaliasQuePassaram = 0;
-        indiceViajante = 0;
-        SortearFilaDe4Viajantes();
-
-        // Garante no mínimo 2 anomalias no Dia 1 (com 25% de chance extra) e 3 no Dia 2 (com 40% de chance extra)
-        int minAnomalias = (diaAtual == 1) ? 2 : 3;
-        float chanceExtra = (diaAtual == 1) ? 0.25f : 0.40f;
-
-        listaAnomaliasDoDia.Clear();
-        for (int i = 0; i < 4; i++)
+        CancelInvoke();
+        if (rotinaContagem != null)
         {
-            if (i < minAnomalias)
-                listaAnomaliasDoDia.Add(true);
-            else
-                listaAnomaliasDoDia.Add(Random.value < chanceExtra);
+            StopCoroutine(rotinaContagem);
         }
 
-        // Embaralha a ordem na fila para ser imprevisível
-        for (int i = 0; i < listaAnomaliasDoDia.Count; i++)
+        podeDecidir = false;
+        jogoPausadoPorPuzzle = false;
+        anomaliasQuePassaram = 0;
+        indiceViajante = 0;
+
+        EsconderTodaHUDTriagem();
+
+        if (diaAtual == 1)
         {
-            bool temp = listaAnomaliasDoDia[i];
-            int rand = Random.Range(i, listaAnomaliasDoDia.Count);
-            listaAnomaliasDoDia[i] = listaAnomaliasDoDia[rand];
-            listaAnomaliasDoDia[rand] = temp;
+            personagensJaVistos.Clear();
+            SortearFilaDia1();
+        }
+        else
+        {
+            atendidosNoDia2 = 0;
+            puzzlesDisparadosDia2 = 0;
         }
 
         ChamarProximoViajante();
     }
 
-    void SortearFilaDe4Viajantes()
+    // Seleciona 4 viajantes aleatórios e embaralha quem será anomalia no primeiro dia
+    void SortearFilaDia1()
     {
         filaDoDia.Clear();
-        List<DadosViajante> copia = new List<DadosViajante>(todosPersonagens);
+        listaAnomaliasDoDia.Clear();
 
+        List<DadosViajante> copia = new List<DadosViajante>(todosPersonagens);
         for (int i = 0; i < 4; i++)
         {
             if (copia.Count == 0) break;
@@ -95,25 +118,93 @@ public class GerenciadorTriagem : MonoBehaviour
             filaDoDia.Add(copia[rand]);
             copia.RemoveAt(rand);
         }
-    }
 
-    void ChamarProximoViajante()
-    {
-        if (indiceViajante >= filaDoDia.Count)
+        for (int i = 0; i < 4; i++)
         {
-            FimDoDia();
-            return;
+            listaAnomaliasDoDia.Add(i < 2 ? true : Random.value < 0.25f);
         }
 
-        DadosViajante atual = filaDoDia[indiceViajante];
+        for (int i = 0; i < listaAnomaliasDoDia.Count; i++)
+        {
+            bool temp = listaAnomaliasDoDia[i];
+            int rand = Random.Range(i, listaAnomaliasDoDia.Count);
+            listaAnomaliasDoDia[i] = listaAnomaliasDoDia[rand];
+            listaAnomaliasDoDia[rand] = temp;
+        }
+    }
 
-        // Pega o resultado já sorteado e embaralhado para este viajante
-        viajanteAtualEhAnomalia = listaAnomaliasDoDia[indiceViajante];
+    bool TodosPersonagensJaApareceram()
+    {
+        foreach (var p in todosPersonagens)
+        {
+            if (p != null && !personagensJaVistos.Contains(p))
+                return false;
+        }
+        return true;
+    }
 
-        // Mostra o personagem na janela
+    // Prioriza viajantes inéditos até que todo o elenco tenha aparecido na cabine
+    DadosViajante EscolherProximoViajanteDia2()
+    {
+        List<DadosViajante> aindaNaoVistos = new List<DadosViajante>();
+        foreach (var p in todosPersonagens)
+        {
+            if (p != null && !personagensJaVistos.Contains(p))
+            {
+                aindaNaoVistos.Add(p);
+            }
+        }
+
+        if (aindaNaoVistos.Count > 0 && (Random.value < 0.7f || personagensJaVistos.Count == 0))
+        {
+            return aindaNaoVistos[Random.Range(0, aindaNaoVistos.Count)];
+        }
+
+        return todosPersonagens[Random.Range(0, todosPersonagens.Count)];
+    }
+
+    // Faz o próximo viajante surgir na janela ou encerra o turno quando os objetivos forem cumpridos
+    public void ChamarProximoViajante()
+    {
+        if (jogoPausadoPorPuzzle) return;
+
+        CancelInvoke(nameof(ChamarProximoViajante));
+        if (rotinaContagem != null)
+        {
+            StopCoroutine(rotinaContagem);
+        }
+
+        EsconderTodaHUDTriagem();
+        podeDecidir = false;
+
+        DadosViajante atual = null;
+
+        if (diaAtual == 1)
+        {
+            if (indiceViajante >= filaDoDia.Count)
+            {
+                FimDoDia();
+                return;
+            }
+            atual = filaDoDia[indiceViajante];
+            viajanteAtualEhAnomalia = listaAnomaliasDoDia[indiceViajante];
+        }
+        else
+        {
+            if (TodosPersonagensJaApareceram() && puzzlesDisparadosDia2 >= 2)
+            {
+                FimDoDia();
+                return;
+            }
+
+            atual = EscolherProximoViajanteDia2();
+            viajanteAtualEhAnomalia = Random.value < 0.65f;
+        }
+
+        personagensJaVistos.Add(atual);
         viajanteNaJanela.ConfigurarViajante(atual, viajanteAtualEhAnomalia);
 
-        // Prepara a fala (se for anomalia, 50% de chance de mentir a origem na fala!)
+        // Anomalias podem mentir sobre a própria origem durante a apresentação
         string origemFalada = atual.origemCorreta;
         if (viajanteAtualEhAnomalia && Random.value < 0.5f)
         {
@@ -122,33 +213,35 @@ public class GerenciadorTriagem : MonoBehaviour
 
         string falaFinal = atual.falaApresentacao.Replace("{origem}", origemFalada);
 
-        // Exibe a barra de diálogo do viajante
         caixaDialogoViajante.SetActive(true);
         textoFalaViajante.text = falaFinal;
-
-        // Coloca o sprite do cartão pronto daquele personagem na UI ampliada
         imagemCartaoAmpliado.sprite = atual.spriteCartaoPronto;
     }
 
-    // Ligue este método num botão invisível ou botão "Continuar" na barra de diálogo do viajante
+    // Libera o cartão de identidade na mesa e inicia o cronômetro de decisão
     public void TerminarFalaDoViajante()
     {
+        if (!caixaDialogoViajante.activeSelf || jogoPausadoPorPuzzle) return;
+
         caixaDialogoViajante.SetActive(false);
 
-        // Entrega o cartão na mesa e libera a investigação + timer
         cartaoNaMesa.SetActive(true);
         painelDecisao.SetActive(true);
         tempoRestante = tempoLimiteInvestigacao;
+        podeDecidir = true;
 
-        StopAllCoroutines();
-        StartCoroutine(ContagemRegressiva());
+        if (rotinaContagem != null)
+        {
+            StopCoroutine(rotinaContagem);
+        }
+        rotinaContagem = StartCoroutine(ContagemRegressiva());
     }
 
+    // Se o tempo esgotar sem resposta, o viajante entra automaticamente
     IEnumerator ContagemRegressiva()
     {
         while (tempoRestante > 0)
         {
-            // Se um puzzle acontecer no meio, o timer congela e espera o puzzle acabar!
             if (!jogoPausadoPorPuzzle)
             {
                 tempoRestante -= Time.deltaTime;
@@ -157,14 +250,12 @@ public class GerenciadorTriagem : MonoBehaviour
             yield return null;
         }
 
-        // Se o tempo acabar sem o jogador decidir, conta como erro/invasão!
         DecidirEntrada(true);
     }
 
-    // --- FUNÇÕES DOS BOTÕES DA TELA ---
-
     public void AbrirCartao()
     {
+        if (!podeDecidir) return;
         painelCartaoAmpliado.SetActive(true);
     }
 
@@ -173,21 +264,25 @@ public class GerenciadorTriagem : MonoBehaviour
         painelCartaoAmpliado.SetActive(false);
     }
 
-    // Ligue no botão APROVAR (true) e no botão NEGAR (false)
+    // Avalia a escolha do jogador, checa o limite de erros e dispara os eventos do dia
     public void DecidirEntrada(bool aprovado)
     {
-        StopAllCoroutines();
-        painelDecisao.SetActive(false);
-        cartaoNaMesa.SetActive(false);
-        painelCartaoAmpliado.SetActive(false);
+        if (!podeDecidir) return;
+        podeDecidir = false;
 
-        // Verifica se deixou uma anomalia passar!
+        if (rotinaContagem != null)
+        {
+            StopCoroutine(rotinaContagem);
+        }
+        CancelInvoke(nameof(ChamarProximoViajante));
+
+        EsconderTodaHUDTriagem();
+
         if (aprovado && viajanteAtualEhAnomalia)
         {
             anomaliasQuePassaram++;
         }
 
-        // Checa derrota imediata: Dia 1 perde com 2 anomalias | Dia 2 perde com 1 anomalia
         int limiteErros = (diaAtual == 1) ? 2 : 1;
 
         if (anomaliasQuePassaram >= limiteErros)
@@ -196,37 +291,100 @@ public class GerenciadorTriagem : MonoBehaviour
             return;
         }
 
-        // Se ainda não perdeu, manda o viajante embora e chama o próximo
         viajanteNaJanela.Esconder();
-        indiceViajante++;
-        if (diaAtual == 2 && indiceViajante == 2 && eventoEnergiaDia2 != null)
+
+        if (diaAtual == 1)
         {
-            jogoPausadoPorPuzzle = true; // Pausa o timer da triagem enquanto conserta a luz
-            eventoEnergiaDia2.DispararQuedaDeEnergia();
+            indiceViajante++;
+            Invoke(nameof(ChamarProximoViajante), 1.5f);
         }
-        Invoke(nameof(ChamarProximoViajante), 1.5f); // Pequena pausa de 1.5s entre viajantes
+        else
+        {
+            atendidosNoDia2++;
+
+            // Dispara o evento dos olhos na sala lateral após o segundo atendimento
+            if (atendidosNoDia2 == 2 && puzzlesDisparadosDia2 == 0 && eventoLanterna != null)
+            {
+                puzzlesDisparadosDia2 = 1;
+                jogoPausadoPorPuzzle = true;
+                eventoLanterna.DispararEventoOlhos();
+                return;
+            }
+            // Dispara a queda de energia na cabine após o quarto atendimento
+            else if (atendidosNoDia2 == 4 && puzzlesDisparadosDia2 == 1 && eventoEnergiaDia2 != null)
+            {
+                puzzlesDisparadosDia2 = 2;
+                jogoPausadoPorPuzzle = true;
+                eventoEnergiaDia2.DispararQuedaDeEnergia();
+                return;
+            }
+
+            Invoke(nameof(ChamarProximoViajante), 1.5f);
+        }
     }
 
     IEnumerator SequenciaGameOver()
     {
-        // Roda o jumpscare da anomalia na tela antes de reiniciar a cena!
+        EsconderTodaHUDTriagem();
         yield return StartCoroutine(viajanteNaJanela.ExecutarJumpscare());
         yield return new WaitForSeconds(0.5f);
-
-        // Reinicia a cena inteira do zero
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
     void FimDoDia()
     {
+        EsconderTodaHUDTriagem();
+
         if (diaAtual == 1 && radioChamada != null)
         {
             radioChamada.AtivarChamadaFimDia1();
         }
+        else if (diaAtual == 2)
+        {
+            StartCoroutine(SequenciaFimDoDia2());
+        }
+    }
+
+    // Faz a câmera tremer, escurece a tela e carrega a cena de encerramento do turno
+    IEnumerator SequenciaFimDoDia2()
+    {
+        audioSource.Stop();
+        Transform cam = Camera.main.transform;
+        Vector3 posOriginal = cam.position;
+        float tempoTremida = 0f;
+
+        while (tempoTremida < 1.8f)
+        {
+            tempoTremida += Time.deltaTime;
+            float forca = Mathf.Lerp(0.05f, 0.25f, tempoTremida / 1.8f);
+            cam.position = posOriginal + (Vector3)Random.insideUnitCircle * forca;
+            yield return null;
+        }
+        cam.position = posOriginal;
+
+        if (painelFadePreto != null)
+        {
+            painelFadePreto.gameObject.SetActive(true);
+            float tempoFade = 0f;
+            float duracaoFade = 1.5f;
+            Color c = painelFadePreto.color;
+
+            while (tempoFade < duracaoFade)
+            {
+                tempoFade += Time.deltaTime;
+                c.a = Mathf.Lerp(0f, 1f, tempoFade / duracaoFade);
+                painelFadePreto.color = c;
+                yield return null;
+            }
+        }
+
+        yield return new WaitForSeconds(0.5f);
+        SceneManager.LoadScene(nomeCenaFinal);
     }
 
     public IEnumerator SequenciaGameOverSemJumpscareJanela()
     {
+        EsconderTodaHUDTriagem();
         yield return new WaitForSeconds(0.5f);
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }

@@ -1,0 +1,1118 @@
+fileFormatVersion: 2
+guid: 49bd43e36b80b6e4ab0a82467212ff70
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7028654330847965789
+    second: Livro Parte 3 e 4_0
+  - first:
+      213: -3117939476772799703
+    second: Livro Parte 3 e 4_1
+  - first:
+      213: 7252093112219806480
+    second: Livro Parte 3 e 4_2
+  - first:
+      213: -916892316086857548
+    second: Livro Parte 3 e 4_3
+  - first:
+      213: 1649389940723461846
+    second: Livro Parte 3 e 4_4
+  - first:
+      213: -5668901544314276392
+    second: Livro Parte 3 e 4_5
+  - first:
+      213: 2957746233927830239
+    second: Livro Parte 3 e 4_6
+  - first:
+      213: -2625972698272726221
+    second: Livro Parte 3 e 4_7
+  - first:
+      213: 2770987204867389201
+    second: Livro Parte 3 e 4_8
+  - first:
+      213: 6730730478555884885
+    second: Livro Parte 3 e 4_9
+  - first:
+      213: 6574485185584528756
+    second: Livro Parte 3 e 4_10
+  - first:
+      213: -2205948423255478546
+    second: Livro Parte 3 e 4_11
+  - first:
+      213: -7852828408377322465
+    second: Livro Parte 3 e 4_12
+  - first:
+      213: 7835268490579595455
+    second: Livro Parte 3 e 4_13
+  - first:
+      213: -2087507435910076332
+    second: Livro Parte 3 e 4_14
+  - first:
+      213: 7527453500484271601
+    second: Livro Parte 3 e 4_15
+  - first:
+      213: -4513573545205900374
+    second: Livro Parte 3 e 4_16
+  - first:
+      213: 3167496997971816434
+    second: Livro Parte 3 e 4_17
+  - first:
+      213: 6708441384860812721
+    second: Livro Parte 3 e 4_18
+  - first:
+      213: 1898483427047855771
+    second: Livro Parte 3 e 4_19
+  - first:
+      213: -4659780282531069053
+    second: Livro Parte 3 e 4_20
+  - first:
+      213: -7606218876697154970
+    second: Livro Parte 3 e 4_21
+  - first:
+      213: 1937521882552853716
+    second: Livro Parte 3 e 4_22
+  - first:
+      213: 1899839447997322196
+    second: Livro Parte 3 e 4_23
+  - first:
+      213: -8400975905891416434
+    second: Livro Parte 3 e 4_24
+  - first:
+      213: -42476188304496485
+    second: Livro Parte 3 e 4_25
+  - first:
+      213: 310072544839434505
+    second: Livro Parte 3 e 4_26
+  - first:
+      213: -3970226090369857040
+    second: Livro Parte 3 e 4_27
+  - first:
+      213: 3499107721927803974
+    second: Livro Parte 3 e 4_28
+  - first:
+      213: 5233026434978923849
+    second: Livro Parte 3 e 4_29
+  - first:
+      213: 5212478236956621561
+    second: Livro Parte 3 e 4_30
+  - first:
+      213: 5380858438877442454
+    second: Livro Parte 3 e 4_31
+  - first:
+      213: -6166724622564366561
+    second: Livro Parte 3 e 4_32
+  - first:
+      213: 5402106628063376371
+    second: Livro Parte 3 e 4_33
+  - first:
+      213: -393894190567048375
+    second: Livro Parte 3 e 4_34
+  - first:
+      213: -6271056214703928300
+    second: Livro Parte 3 e 4_35
+  - first:
+      213: -8708601264966613865
+    second: Livro Parte 3 e 4_36
+  - first:
+      213: 3563038260706568230
+    second: Livro Parte 3 e 4_37
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_0
+      rect:
+        serializedVersion: 2
+        x: 744
+        y: 1067
+        width: 43
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adcbc02024357e90800000000000000
+      internalID: -7028654330847965789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_1
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 1451
+        height: 1050
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b3acfb09adab4d0800000000000000
+      internalID: -3117939476772799703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_2
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1002
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01b2be7234c94a460800000000000000
+      internalID: 7252093112219806480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_3
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 1011
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b09b52eb4b8643f0800000000000000
+      internalID: -916892316086857548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_4
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1015
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6deace8896fc3e610800000000000000
+      internalID: 1649389940723461846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_5
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 1005
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d5fb70a4140451b0800000000000000
+      internalID: -5668901544314276392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_6
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 1005
+        width: 42
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fda840967860c0920800000000000000
+      internalID: 2957746233927830239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_7
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 976
+        width: 31
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33384917ebbae8bd0800000000000000
+      internalID: -2625972698272726221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_8
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 1002
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 117f5477e26847620800000000000000
+      internalID: 2770987204867389201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_9
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 979
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55de73595bb586d50800000000000000
+      internalID: 6730730478555884885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_10
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 956
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47d75d371734d3b50800000000000000
+      internalID: 6574485185584528756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_11
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 73
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee260fb895e261e0800000000000000
+      internalID: -2205948423255478546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_12
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 42
+        width: 38
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14d29c2b26250390800000000000000
+      internalID: -7852828408377322465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_13
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 77
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb0deccdd277cbc60800000000000000
+      internalID: 7835268490579595455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_14
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 74
+        width: 60
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 458e7901c0fa703e0800000000000000
+      internalID: -2087507435910076332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_15
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 71
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1fdb2a79313e67860800000000000000
+      internalID: 7527453500484271601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_16
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 65
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aabd66a46c09c51c0800000000000000
+      internalID: -4513573545205900374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 63
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffe93fccb535fb20800000000000000
+      internalID: 3167496997971816434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_18
+      rect:
+        serializedVersion: 2
+        x: 906
+        y: 71
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b5882d85eb291d50800000000000000
+      internalID: 6708441384860812721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_19
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 49
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9657294e94c85a10800000000000000
+      internalID: 1898483427047855771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_20
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 61
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383cd588582255fb0800000000000000
+      internalID: -4659780282531069053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_21
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 67
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a689a2b38417690800000000000000
+      internalID: -7606218876697154970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_22
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 55
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4eb1203e573ea10800000000000000
+      internalID: 1937521882552853716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_23
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 51
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d3972489e59d5a10800000000000000
+      internalID: 1899839447997322196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_24
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 63
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e860ab28cecb96b80800000000000000
+      internalID: -8400975905891416434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_25
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 47
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b98a2bcb128196ff0800000000000000
+      internalID: -42476188304496485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_26
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 34
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90181c136599d4400800000000000000
+      internalID: 310072544839434505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_27
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 47
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9448de76ce6e8c0800000000000000
+      internalID: -3970226090369857040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_28
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 25
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644455c1fe35f8030800000000000000
+      internalID: 3499107721927803974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_29
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 33
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 945c52d11d17f9840800000000000000
+      internalID: 5233026434978923849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_30
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 31
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9faf041f651765840800000000000000
+      internalID: 5212478236956621561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_31
+      rect:
+        serializedVersion: 2
+        x: 680
+        y: 19
+        width: 41
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 691f3fbbd36acaa40800000000000000
+      internalID: 5380858438877442454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_32
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 17
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f176564e0a46b6aa0800000000000000
+      internalID: -6166724622564366561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_33
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 23
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3308c4b5328fa40800000000000000
+      internalID: 5402106628063376371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_34
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 17
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94b3924125b988af0800000000000000
+      internalID: -393894190567048375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_35
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 17
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41c0114299bb8f8a0800000000000000
+      internalID: -6271056214703928300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_36
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 15
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 794c5272a45d42780800000000000000
+      internalID: -8708601264966613865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Livro Parte 3 e 4_37
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 18
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6286a8a9b64727130800000000000000
+      internalID: 3563038260706568230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Livro Parte 3 e 4_0: -7028654330847965789
+      Livro Parte 3 e 4_1: -3117939476772799703
+      Livro Parte 3 e 4_10: 6574485185584528756
+      Livro Parte 3 e 4_11: -2205948423255478546
+      Livro Parte 3 e 4_12: -7852828408377322465
+      Livro Parte 3 e 4_13: 7835268490579595455
+      Livro Parte 3 e 4_14: -2087507435910076332
+      Livro Parte 3 e 4_15: 7527453500484271601
+      Livro Parte 3 e 4_16: -4513573545205900374
+      Livro Parte 3 e 4_17: 3167496997971816434
+      Livro Parte 3 e 4_18: 6708441384860812721
+      Livro Parte 3 e 4_19: 1898483427047855771
+      Livro Parte 3 e 4_2: 7252093112219806480
+      Livro Parte 3 e 4_20: -4659780282531069053
+      Livro Parte 3 e 4_21: -7606218876697154970
+      Livro Parte 3 e 4_22: 1937521882552853716
+      Livro Parte 3 e 4_23: 1899839447997322196
+      Livro Parte 3 e 4_24: -8400975905891416434
+      Livro Parte 3 e 4_25: -42476188304496485
+      Livro Parte 3 e 4_26: 310072544839434505
+      Livro Parte 3 e 4_27: -3970226090369857040
+      Livro Parte 3 e 4_28: 3499107721927803974
+      Livro Parte 3 e 4_29: 5233026434978923849
+      Livro Parte 3 e 4_3: -916892316086857548
+      Livro Parte 3 e 4_30: 5212478236956621561
+      Livro Parte 3 e 4_31: 5380858438877442454
+      Livro Parte 3 e 4_32: -6166724622564366561
+      Livro Parte 3 e 4_33: 5402106628063376371
+      Livro Parte 3 e 4_34: -393894190567048375
+      Livro Parte 3 e 4_35: -6271056214703928300
+      Livro Parte 3 e 4_36: -8708601264966613865
+      Livro Parte 3 e 4_37: 3563038260706568230
+      Livro Parte 3 e 4_4: 1649389940723461846
+      Livro Parte 3 e 4_5: -5668901544314276392
+      Livro Parte 3 e 4_6: 2957746233927830239
+      Livro Parte 3 e 4_7: -2625972698272726221
+      Livro Parte 3 e 4_8: 2770987204867389201
+      Livro Parte 3 e 4_9: 6730730478555884885
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

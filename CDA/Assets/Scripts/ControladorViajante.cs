@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class ControladorViajante : MonoBehaviour
 {
+    [Header("Componentes Visuais e Sonoros")]
     public SpriteRenderer spriteRenderer;
     public AudioSource audioSource;
     public AudioClip somGlitch;
@@ -18,6 +19,7 @@ public class ControladorViajante : MonoBehaviour
         escalaOriginal = transform.localScale;
     }
 
+    // Prepara o viajante na janela e ativa o comportamento oculto caso seja uma anomalia
     public void ConfigurarViajante(DadosViajante dados, bool anomalia)
     {
         dadosAtuais = dados;
@@ -36,31 +38,31 @@ public class ControladorViajante : MonoBehaviour
         }
     }
 
-    // Faz a anomalia trocar para o sprite bizarro muito rápido de tempos em tempos!
+    // Alterna rapidamente para a aparência anômala em intervalos aleatórios para dar pistas sutis
     IEnumerator RotinaGlitchAnomalia()
     {
         while (ativo)
         {
-            // Espera um tempo aleatório entre 3 e 7 segundos
             yield return new WaitForSeconds(Random.Range(3f, 7f));
 
-            // Pisca para o sprite anômalo por apenas 0.12 segundos!
             spriteRenderer.sprite = dadosAtuais.spriteAnomalo;
             if (somGlitch != null)
             {
                 audioSource.clip = somGlitch;
                 audioSource.Play();
-            } 
+            }
 
             yield return new WaitForSeconds(0.12f);
 
-            // Volta ao normal como se nada tivesse acontecido
             spriteRenderer.sprite = dadosAtuais.spriteNormal;
-            if (audioSource.isPlaying) audioSource.Stop();
+            if (audioSource.isPlaying)
+            {
+                audioSource.Stop();
+            }
         }
     }
 
-    // Efeito FODA de Jumpscare quando o jogador aprova uma anomalia ou perde
+    // Avança a criatura na direção da tela com áudio alto quando o jogador comete um erro fatal
     public IEnumerator ExecutarJumpscare()
     {
         ativo = false;
@@ -68,9 +70,11 @@ public class ControladorViajante : MonoBehaviour
 
         spriteRenderer.sprite = dadosAtuais.spriteAnomalo;
         spriteRenderer.sortingOrder = 10;
-        if (somJumpscare != null) audioSource.PlayOneShot(somJumpscare);
+        if (somJumpscare != null)
+        {
+            audioSource.PlayOneShot(somJumpscare);
+        }
 
-        // Aumenta o tamanho bruscamente na direção da tela e treme
         float tempo = 0f;
         while (tempo < 0.6f)
         {

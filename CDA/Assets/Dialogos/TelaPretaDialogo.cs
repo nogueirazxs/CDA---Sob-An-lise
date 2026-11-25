@@ -5,26 +5,28 @@ using UnityEngine.InputSystem;
 
 public class TelaPretaDialogo : MonoBehaviour
 {
-    public static TelaPretaDialogo instancia; // Variável para acessar o script sem precisar arrastar a referência.
+    public static TelaPretaDialogo instancia;
 
     [Header("Componentes da Tela")]
     public GameObject telaPreta;
     public TextMeshProUGUI textoNaTela;
     public AudioSource tocadorDeAudio;
 
-    InputAction acaoAvancar;
+    [Header("Estado do Diálogo")]
+    public bool acabou = false;
+
+    private InputAction acaoAvancar;
     private Dialogo dialogoAtual;
     private int numeroDaFala = 0;
     private bool escrevendo = false;
 
-    public bool acabou = false;
-
     void Awake()
     {
+        // Garante uma instância única e mantém o canvas de diálogo ativo entre as cenas
         if (instancia == null)
         {
             instancia = this;
-            DontDestroyOnLoad(gameObject); // Não destrói o canvas quando passar de cena.
+            DontDestroyOnLoad(gameObject);
         }
         else
         {
@@ -32,14 +34,12 @@ public class TelaPretaDialogo : MonoBehaviour
         }
 
         acaoAvancar = InputSystem.actions.FindAction("Avancar");
-
         telaPreta.SetActive(false);
     }
 
     void Update()
     {
-        // Se a tela preta não estiver aberta, não faz nada.
-        if (telaPreta.activeSelf == false) return;
+        if (!telaPreta.activeSelf) return;
 
         if (acaoAvancar != null && acaoAvancar.WasPerformedThisFrame())
         {
@@ -47,20 +47,21 @@ public class TelaPretaDialogo : MonoBehaviour
         }
     }
 
-    // Metódo para começar um diálogo configurado e passado por referência.
+    // Inicia uma nova sequência de falas na tela preta
     public void ComecarDialogo(Dialogo novoDialogo)
     {
         acabou = false;
-        dialogoAtual = novoDialogo; // Pega o parâmetro para usar no script.
+        dialogoAtual = novoDialogo;
         numeroDaFala = 0;
 
         telaPreta.SetActive(true);
         MostrarFala();
     }
 
+    // Carrega o áudio e dispara a digitação da fala atual
     void MostrarFala()
     {
-        Fala falaAtual = dialogoAtual.falas[numeroDaFala]; // Pega o string da fala atual.
+        Fala falaAtual = dialogoAtual.falas[numeroDaFala];
 
         tocadorDeAudio.Stop();
         if (falaAtual.audio != null)
@@ -70,9 +71,10 @@ public class TelaPretaDialogo : MonoBehaviour
         }
 
         StopAllCoroutines();
-        StartCoroutine(EscreverAosPoucos(falaAtual.texto)); // Começa a escrever o texto aos poucos.
+        StartCoroutine(EscreverAosPoucos(falaAtual.texto));
     }
 
+    // Efeito máquina de escrever independente do Time.timeScale
     IEnumerator EscreverAosPoucos(string frase)
     {
         escrevendo = true;
@@ -80,23 +82,22 @@ public class TelaPretaDialogo : MonoBehaviour
 
         foreach (char letra in frase)
         {
-            textoNaTela.text += letra; // Aparece letra por letra em um tempo específico.
+            textoNaTela.text += letra;
             yield return new WaitForSecondsRealtime(0.04f);
         }
 
         escrevendo = false;
     }
 
+    // Completa o texto na hora se ainda estiver digitando ou pula para a próxima fala
     void AvancarDialogo()
     {
-        // Se ainda está digitando, completa a frase na hora.
-        if (escrevendo == true)
+        if (escrevendo)
         {
             StopAllCoroutines();
-            textoNaTela.text = dialogoAtual.falas[numeroDaFala].texto; // Mostra a fala completa.
+            textoNaTela.text = dialogoAtual.falas[numeroDaFala].texto;
             escrevendo = false;
         }
-        // Se já terminou de digitar, vai para a próxima fala.
         else
         {
             numeroDaFala++;

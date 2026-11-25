@@ -1,15 +1,18 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+// Estrutura que representa cada linha de diálogo com seu texto e áudio correspondente
 [System.Serializable]
 public class Fala
 {
-    public string texto; // Guarda o texto de cada cutscene.
-    public AudioClip audio; // Guarda o áudio respectivo de cada fala.
+    public string texto;
+    public AudioClip audio;
 }
 
-[CreateAssetMenu(menuName = "CDA/Novo Dialogo")] // Cria um novo asset no menu em Projects.
+// Cria a opção no menu da Unity para montar novos arquivos de diálogo no projeto
+[CreateAssetMenu(menuName = "CDA/Novo Dialogo")]
 public class Dialogo : ScriptableObject
 {
-    public List<Fala> falas = new List<Fala>(); // Adiciona os itens de texto e audio na lista.
+    [Header("Lista de Falas da Cutscene")]
+    public List<Fala> falas = new List<Fala>();
 }

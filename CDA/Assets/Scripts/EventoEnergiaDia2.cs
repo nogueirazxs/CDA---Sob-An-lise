@@ -28,6 +28,7 @@ public class EventoEnergiaDia2 : MonoBehaviour
     {
         if (!energiaCaida) return;
 
+        // Conta o tempo restante para religar os fios antes da invasão acontecer
         cronometro -= Time.deltaTime;
 
         if (cronometro <= 0f)
@@ -37,6 +38,7 @@ public class EventoEnergiaDia2 : MonoBehaviour
         }
     }
 
+    // Escurece a cabine, embaralha o puzzle novamente e libera o botão de acesso à caixa
     public void DispararQuedaDeEnergia()
     {
         if (energiaCaida) return;
@@ -45,28 +47,46 @@ public class EventoEnergiaDia2 : MonoBehaviour
         cronometro = tempoLimiteConserto;
 
         if (gerenciadorFios != null)
+        {
             gerenciadorFios.ResetarPuzzleCompleto();
+        }
 
         if (fundoCabine != null)
+        {
             fundoCabine.color = corEscura;
+        }
 
         if (audioSource != null && somQuedaEnergia != null)
+        {
             audioSource.PlayOneShot(somQuedaEnergia);
+        }
 
         if (botaoIrParaCaixa != null)
+        {
             botaoIrParaCaixa.SetActive(true);
+        }
     }
 
+    // Acende as luzes e retoma a fila de triagem se o conserto veio desta queda de energia
     public void EnergiaRestauradaComSucesso()
     {
+        // Evita conflito caso a caixa tenha sido usada apenas para ligar o rádio do Dia 1
+        if (!energiaCaida) return;
+
         energiaCaida = false;
         if (fundoCabine != null)
+        {
             fundoCabine.color = Color.white;
+        }
 
-            if (gerenciadorTriagem != null)
+        if (gerenciadorTriagem != null)
+        {
             gerenciadorTriagem.jogoPausadoPorPuzzle = false;
+            gerenciadorTriagem.Invoke("ChamarProximoViajante", 1.0f);
+        }
     }
 
+    // Fecha os painéis da caixa de força e dispara o ataque da anomalia no escuro
     IEnumerator SequenciaInvasaoNoEscuro()
     {
         if (painelCaixaAberta != null) painelCaixaAberta.SetActive(false);
@@ -74,14 +94,16 @@ public class EventoEnergiaDia2 : MonoBehaviour
         if (botaoIrParaCaixa != null) botaoIrParaCaixa.SetActive(false);
 
         if (audioSource != null && somInvasaoAnomalia != null)
+        {
             audioSource.PlayOneShot(somInvasaoAnomalia);
+        }
 
         if (visualAnomaliaInvasao != null)
         {
             visualAnomaliaInvasao.SetActive(true);
             RectTransform rt = visualAnomaliaInvasao.GetComponent<RectTransform>();
 
-            // Animação rápida de avanço (zoom de 0.6x até 1.35x em 0.35 segundos)
+            // Avança o visual da criatura rapidamente em direção à tela
             float duracao = 0.35f;
             float tempo = 0f;
             Vector3 escalaInicial = Vector3.one * 0.6f;

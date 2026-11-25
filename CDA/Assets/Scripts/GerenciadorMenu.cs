@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.InputSystem;
+using TMPro;
 
 public class GerenciadorMenu : MonoBehaviour
 {
@@ -12,6 +13,8 @@ public class GerenciadorMenu : MonoBehaviour
     public float velocidade = 250f; public float distancia = 600f;
 
     InputAction back;
+
+    public TextMeshProUGUI textoTitulo, textoTutorial;
 
     void Start()
     {
@@ -65,4 +68,8 @@ public class GerenciadorMenu : MonoBehaviour
     {
         Application.Quit();
     }
+
+    public void TextoTutorial(string tutorialTitulo) => textoTitulo.text = tutorialTitulo;
+    public void TextoTutorial2(string tutorial) => textoTutorial.text = tutorial;
+    
 }
