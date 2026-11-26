@@ -24,7 +24,7 @@ public class AnimacaoSetaDireita : MonoBehaviour
         }
     }
 
-    // Cria um movimento contínuo de vai-e-vem horizontal para chamar atenção
+    // Cria um movimento contínuo de vai e vem horizontal para chamar atenção
     void Update()
     {
         float deslocamento = Mathf.Sin(Time.time * velocidade) * distanciaMovimento;

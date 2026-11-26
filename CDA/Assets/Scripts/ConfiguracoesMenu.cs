@@ -5,7 +5,7 @@ using UnityEngine.UI;
 public class ConfiguracoesMenu : MonoBehaviour
 {
     [Header("Elementos de Interface")]
-    public Image[] cursores;
+    public Texture2D[] cursores;
     public Slider sliderVolume;
     public GameObject menuDeOpcoes;
 
@@ -18,17 +18,16 @@ public class ConfiguracoesMenu : MonoBehaviour
 
     void Awake()
     {
-        // Mantém o painel de configurações persistente ao trocar de cena
         DontDestroyOnLoad(gameObject);
+
+        // Aplica o cursor salvo assim que o jogo abre, sem esperar o menu ser aberto
+        int salvo = PlayerPrefs.GetInt("CursorEscolhido", 0);
+        AplicarCursorPorIndice(salvo);
     }
 
     void Start()
     {
         menuDeOpcoes.SetActive(false);
-
-        // Recupera a preferência de cursor salva anteriormente e sincroniza o áudio
-        int salvo = PlayerPrefs.GetInt("CursorEscolhido", 0);
-        AplicarCursorPorIndice(salvo);
         sliderVolume.value = AudioListener.volume;
 
         acaoEsc = InputSystem.actions.FindAction("AbrirEFechar");
@@ -74,10 +73,13 @@ public class ConfiguracoesMenu : MonoBehaviour
         }
     }
 
-    // Aplica o cursor selecionado e salva a escolha no armazenamento local
+    // Aplica a textura do cursor selecionado e salva a escolha
     public void AplicarCursorPorIndice(int indice)
     {
-        Cursor.SetCursor(cursores[indice].sprite.texture, Vector2.zero, CursorMode.Auto);
+        if (cursores == null || indice < 0 || indice >= cursores.Length || cursores[indice] == null)
+            return;
+
+        Cursor.SetCursor(cursores[indice], Vector2.zero, CursorMode.Auto);
         PlayerPrefs.SetInt("CursorEscolhido", indice);
         PlayerPrefs.Save();
     }

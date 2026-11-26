@@ -27,7 +27,7 @@ public class ControladorFimdeTurno : MonoBehaviour
         StartCoroutine(SequenciaMensagensFinais());
     }
 
-    // Orquestra a exibição das frases finais com pausas dramáticas antes de voltar ao menu
+    // Organiza a exibição das frases finais com pausas dramáticas antes de voltar ao menu
     IEnumerator SequenciaMensagensFinais()
     {
         textoTela.text = "";

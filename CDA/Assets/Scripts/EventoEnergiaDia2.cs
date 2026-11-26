@@ -67,7 +67,7 @@ public class EventoEnergiaDia2 : MonoBehaviour
         }
     }
 
-    // Acende as luzes e retoma a fila de triagem se o conserto veio desta queda de energia
+    // Acende as luzes e retoma a fila se o conserto veio dessa queda de energia
     public void EnergiaRestauradaComSucesso()
     {
         // Evita conflito caso a caixa tenha sido usada apenas para ligar o rádio do Dia 1

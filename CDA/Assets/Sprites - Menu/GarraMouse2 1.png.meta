@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 0a1c816fc7f604a41b4b4786de6a2bdf
+guid: 3663029fce82cf744aba6580bc0fa15e
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -469322324039195105
-    second: Lupa Mouse_0
+      213: 547842994021737920
+    second: GarraMouse2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: 1
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -57,7 +57,7 @@ TextureImporter:
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
-  textureType: 8
+  textureType: 7
   textureShape: 1
   singleChannelComponent: 0
   flipbookRows: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Lupa Mouse_0
+      name: GarraMouse2_0
       rect:
         serializedVersion: 2
-        x: 105
-        y: 110
-        width: 888
-        height: 887
+        x: 21
+        y: 19
+        width: 632
+        height: 556
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f16ab7635d1ac79f0800000000000000
-      internalID: -469322324039195105
+      spriteID: 0c52a5bec445a9700800000000000000
+      internalID: 547842994021737920
       vertices: []
       indices: 
       edges: []
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Lupa Mouse_0: -469322324039195105
+      GarraMouse2_0: 547842994021737920
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
